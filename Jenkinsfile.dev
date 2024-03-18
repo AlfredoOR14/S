@@ -16,7 +16,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Compilar el proyecto de Spring Boot
-                bat 'mvnw clean package'
+                bat './mvnw clean package'
             }
         }
         
